@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+   <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <input type="text" placeholder="Search..">
+      </div>
+      <h1 class="">  </h1>
+      <form action="#" class="js-filter -form" >
+        <p class="region">region</p>
+        <select name="language" class="js-language">
+          <option value="eu">European Union</option>
+          <option value="caricom">caribbean community</option>
+          <option value="efta">EUropean Free Trade Association</option>
+          <option value="pa">Pacific Alliance</option>
+          <option value="au">African Union</option>
+          <option value="usan">Union of South American Nations</option>
+          <option value="eeu">Eurasian Economic Union</option>
+          <option value="al">Arab League</option>
+          <option value="asean">Association of Southeast Asian Nations</option>
+          <option value="cais">Central European Free Trade Agreement</option>
+          <option value="nafta">North American Free Trade Agreement</option>
+          <option value="saarc">SouthAsian Association for Regional Cooperation</option>
+        </select>
+        <label for=>
+          minimun population: 
+          <input type="number" value="0" min="0" required/>
+        </label>
+        
+        <button type="submit">Change</button>
+      </form> 
+
+    <div class="js-container countries-container"></div>
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>
